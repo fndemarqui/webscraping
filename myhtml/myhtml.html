@@ -1,0 +1,159 @@
+
+<html>
+<head>
+<!-- Exemplo de CCS -->  
+<style>
+body{
+  background-color: lightblue;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h2{
+  color: black;
+  text-align: left;
+}
+
+p{
+  font-family: verdana;
+  font-size: 20px;
+}
+
+table{
+  font-family: verdana;
+  background-color: lightgray;
+  color: darkblue;
+  font-size: 20px;
+}
+
+div{
+  font-family: verdana;
+  color: black;
+  font-size: 20px;
+}
+</style>
+</head>
+
+
+<!-- ####################################################################### -->
+
+<body>
+
+<h1>
+  Minha primeira página HTML
+</h1>
+
+<h2>
+  Conceitos básicos sobre HTML
+</h2>
+<p>
+  HTML (HyperText Markup Language - Linguagem de marcação de texo em português) 
+  é uma linguagem utilizada para apresentarmos conteúdo na internet.  
+</p>
+
+<p>
+Um arquivo HTML nada mais é do que um arquivo de texto simples, que pode ser aberto 
+e editado em qualquer editor de textos (vou sugerir aqui que vocês utilizem o RStudio, 
+onde esse arquivo.html foi criado).
+</p>
+
+
+<p>CSS é a linguagem utilizada para definir o estilo de um documento HTML. Mais especificamente, a linguagem CSS descreve como os elementos HTML devem ser exibidos.</p>
+
+
+<!-- ####################################################################### -->
+
+
+<h2>
+  Tags, elementos e atributos
+</h2>
+
+<p>
+  Textos simples são transformados em um documento HTML através de tags (etiquetas)
+  que podem ser interpretadas por um navegador.
+</p>
+
+<p>Exemplos de tags incluem:</p>
+
+<ul>
+  <li><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>,…,<code>&lt;h6&gt;</code>: 
+  maior heading, segundo maior heading, etc.</li>
+  <li><code>&lt;p&gt;</code>: parágrafo</li>
+  <li><code>&lt;ul&gt;</code>: lista desordenada</li>
+  <li><code>&lt;ol&gt;</code>: lista ordenada</li>
+  <li><code>&lt;li&gt;</code>: item  individual de uma lista</li>
+  <li><code>&lt;div&gt;</code>: divisão ou seção</li>
+  <li><code>&lt;table&gt;</code>: tabela</li>
+</ul>
+
+<p> Acima foi criada uma lista deordenada com a tag <code>&lt;ul&gt;</code>. Agora vou criar uma lista ordenda com a tag <code>&lt;ol&gt;</code>:</p>
+
+<ol>
+  <li>Primeior</li>
+  <li>Segundo</li>
+  <li>Terceiro</li>
+</ol>
+
+<p>Fazendo a minha primeira tabela em HTML:</p>
+
+<table id="tabela1">
+  <tr>
+    <th>Nome</th>
+    <th>Sobrenome</th>
+    <th>País</th>
+  </tr>
+  <tr>
+    <td>Fábio</td>
+    <td>Demarqui</td>
+    <td>Brasil</td>
+  </tr>
+  <tr>
+    <td>Hadley</td>
+    <td>Wickham</td>
+    <td>Nova Zelância</td>
+  </tr>
+</table>
+
+
+<p>Criando outra tabela:</p>
+
+<table id="tabela2">
+  <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Profissão</th>
+  </tr>
+  <tr>
+    <td>Fábio</td>
+    <td>38</td>
+    <td>Professor</td>
+  </tr>
+  <tr>
+    <td>Luiz</td>
+    <td>69</td>
+    <td>Aposentado</td>
+  </tr>
+</table>
+
+<!-- ####################################################################### -->
+
+<h2>
+  Adicionando hiperlinks
+</h2>
+
+<!-- Comentários em um arquivo.html  -->
+<div>
+  <p>
+  É muito fácil adicionarmos hiperlinks. Por exemplo, clique
+<a href="http://www.est.ufmg.br/~fndemarqui">aqui</a> para acessar a página do professor. Se você quiser acessar a página do departamento, basta clicar <a href="http://www.est.ufmg.br/">DEST-UFMG</a>. Visite a página <a href="https://www.w3schools.com">W3Schools</a> para aprender um pouco mais sobre HTML.
+</p>
+  
+</div>
+
+<!-- ####################################################################### -->
+
+</body>
+</html>
