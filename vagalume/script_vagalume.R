@@ -11,6 +11,7 @@ xpath <- '//*[@id="alfabetMusicList"]'
 pagina <- read_html(url) 
 
 
+
 # selecionando os títulos das músicas:
 titulos <- pagina %>%
   html_nodes(xpath = xpath) %>%
